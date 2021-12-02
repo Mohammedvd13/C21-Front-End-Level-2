@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnerHTML van Lorenzo</title>
+    <script src="andere.js" defer></script>
+</head>
+<body>
+    <p id="p1">dit is een id paragraaf</p>
+    <button onclick="document.getElementById('p1').innerHTML = 'mango is kei lekker';">mango</button>
+    <p class="p1">Dit is een class paragraaf</p>
+    <button onclick="document.querySelector('.p1').innerHTML = 'king of the jungle';">leo</button>
+
+    <h1 id="h1">dit is een id header</h1>
+    <button onclick="document.getElementById('h1').innerHTML = 'goat no cap';">2pac</button>    
+    <h1 class="h1">dit is een class header</h1>
+    <button onclick="document.querySelector('.h1').innerHTML = 'icon no cap';">ice cube</button>
+    <p>klik op de button hieronder om de body te veranderen.</p>
+    <button onclick="document.querySelector('body').innerHTML = 'i dunno blud';">qlewi</button>
+</body>
+</html>
